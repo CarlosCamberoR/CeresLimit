@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="es.unex.navdrawertraining.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_detalles"
+            app:destination="@id/nav_detalles" />
+        <action
+            android:id="@+id/home_to_locales_categoria_action"
+            app:destination="@id/nav_locales_categoria" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_busquedaAvanzada"
+        android:name="es.unex.navdrawertraining.ui.busquedaavanzada.BusquedaAvanzadaFragment"
+        android:label="@string/menu_busquedaAvanzada"
+        tools:layout="@layout/fragment_busqueda_avanzada" >
+        <action
+            android:id="@+id/action_nav_busquedaAvanzada_to_nav_detalles"
+            app:destination="@id/nav_detalles" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_categorias"
+        android:name="es.unex.navdrawertraining.ui.categorias.CategoriasFragment"
+        android:label="@string/menu_categorias"
+        tools:layout="@layout/fragment_categorias">
+        <action
+            android:id="@+id/crear_categoria_action"
+            app:destination="@id/nav_crear_categoria" />
+        <action
+            android:id="@+id/locales_categoria_action"
+            app:destination="@id/nav_locales_categoria" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favoritos"
+        android:name="es.unex.navdrawertraining.ui.favoritos.FavoritosFragment"
+        android:label="@string/menu_favoritos"
+        tools:layout="@layout/fragment_favoritos" >
+        <action
+            android:id="@+id/fav_to_detalles_action"
+            app:destination="@id/nav_detalles" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_reservas"
+        android:name="es.unex.navdrawertraining.ui.reservas.ReservasFragment"
+        android:label="@string/menu_reservas"
+        tools:layout="@layout/fragment_reservas" />
+    <fragment
+        android:id="@+id/nav_detalles"
+        android:name="es.unex.navdrawertraining.ui.detalles.DetallesFragment"
+        android:label="Detalles"
+        tools:layout="@layout/fragment_detalles">
+        <action
+            android:id="@+id/anadir_local_categoria_action"
+            app:destination="@id/nav_anadir_local_categoria" />
+        <action
+            android:id="@+id/detalles_to_resena_action"
+            app:destination="@id/nav_resena" />
+        <action
+            android:id="@+id/action_nav_detalles_to_nav_hacer_reserva2"
+            app:destination="@id/nav_hacer_reserva" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_hacer_reserva"
+        android:name="es.unex.navdrawertraining.ui.hacerreserva.HacerReservaFragment"
+        android:label="Hacer Reserva"
+        tools:layout="@layout/fragment_hacer_reserva" />
+
+    <fragment
+        android:id="@+id/nav_resena"
+        android:name="es.unex.navdrawertraining.ui.resena.ResenaFragment"
+        android:label="Hacer resena"
+        tools:layout="@layout/fragment_resena" />
+
+    <fragment
+        android:id="@+id/nav_crear_categoria"
+        android:name="es.unex.navdrawertraining.ui.categorias.CrearCategoriaFragment"
+        android:label="Crear Categoria"
+        tools:layout="@layout/fragment_crear_categoria" />
+
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="es.unex.navdrawertraining.ui.busquedamapa.BusquedaMapaFragment"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_busqueda_mapa" >
+        <action
+            android:id="@+id/action_nav_mapa_to_nav_detalles"
+            app:destination="@id/nav_detalles" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_anadir_local_categoria"
+        android:name="es.unex.navdrawertraining.ui.categorias.AnadirLocalCategoriaFragment"
+        android:label="Anadir local"
+        tools:layout="@layout/fragment_anadir_local_categoria" />
+    <fragment
+        android:id="@+id/nav_locales_categoria"
+        android:name="es.unex.navdrawertraining.ui.categorias.LocalesCategoriaFragment"
+        android:label="Locales por categoría"
+        tools:layout="@layout/fragment_locales_categoria">
+        <action
+            android:id="@+id/local_categoria_to_detalles_action"
+            app:destination="@id/nav_detalles" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_preferencias"
+        android:name="es.unex.navdrawertraining.ui.preferencias.PreferenciasFragment"
+        android:label="Preferencias" />
+
+</navigation>

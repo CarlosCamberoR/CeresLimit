@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="2dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_favoritos_item"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#F0F0F0">
+
+
+        <ImageView
+            android:id="@+id/iv_favoritos_background_local"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/side_nav_bar"/>
+        <ImageView
+            android:id="@+id/iv_favoritos_imagen_local"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/sym_def_app_icon"
+            android:layout_marginTop="65dp"
+            android:padding="2dp"
+            android:background="@color/rosewood"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:id="@+id/tv_favoritos_nombre_item"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Nombre de Prueba"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/rv_favoritos_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="20dp"
+            android:isIndicator="true"/>
+        <ImageButton
+            android:id="@+id/ib_favoritos_detalles_favorito"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/icono_favorito"
+            app:tint="@color/rosewood"
+            android:background="@drawable/border_circle"
+            android:contentDescription="@string/desc_favorito"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

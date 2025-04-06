@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/NombreDelUsuario">
+
+        <EditTextPreference
+            app:key="nombreUsuario"
+            app:title="@string/etP_nombreUsuario"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/Mapa">
+
+        <ListPreference
+            app:defaultValue="Medio"
+            app:key="zoom"
+            app:title="Zoom por defecto en el Mapa"
+            app:entries="@array/zoom_names"
+            app:entryValues="@array/zoom_values"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

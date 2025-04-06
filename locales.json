@@ -1,0 +1,273 @@
+{
+"locales":[
+{
+    "id":"l01",
+    "nombre":"Urban's",
+    "descripcion":"Este establecimiento es un bar de tapas y raciones con muy buenos desayunos. Está en un barrio tranquilo y familiar y tiene un parque al lado. La terraza es muy grande y da mucho sol.",
+    "coordenadas":[
+        39.48822582763874,
+        -6.372563926523371
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/1_893ACuuh52Kl8IAxLWkERSHTR6ewP__/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/12Zx-BAWQKuUCbXPQ67C4OZGxyhJ_k6Aa/view?usp=sharing",
+    "aforo_total":100,
+    "ocupacion_actual":40,
+    "etiquetas":[
+        "raciones",
+        "desayunos",
+        "tostadas"
+]
+},
+{
+    "id":"l02",
+    "nombre":"Meraki",
+    "descripcion":"Meraki es un bar de cañas con muy buenas tapas y buenas raciones. Está situado en un barrio muy tranquilo. Disponen de una carta de raciones y platos individuales muy variada.",
+    "coordenadas":[
+        39.487758004045645,
+        -6.370697109157292
+    ],
+    "valoracionGlobal":4.5,
+    "foto_perfil":"https://drive.google.com/file/d/1aEe0XWkuih8wIP2x_J0fwo4Y55iYP_0S/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/1pW16Mw6VSN1r3rXSxs9dVoJV9BiRqfiM/view?usp=sharing",
+    "aforo_total":150,
+    "ocupacion_actual":30,
+    "etiquetas":[
+        "cervecería",
+        "hamburguesa",
+        "pinchos"
+    ]
+},
+{
+    "id":"l03",
+    "nombre":"Dino Burger",
+    "descripcion":"Dino Burger es una restaurante especializado en hamburguesas pero con un amplio menú. Está situado en el centro de Cáceres. Destaca principalmente por la relación de calidad-precio.",
+    "coordenadas":[
+        39.46827,
+        -6.38052
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/13ASpj9YdgUbDEDwOT0qYqymw_kWacU6d/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/13MlvbMGPH-3kpdBzNa0VvaVrfwGNr7Fk/view?usp=sharing",
+    "aforo_total":150,
+    "ocupacion_actual":30,
+    "etiquetas":[
+        "hamburguesa",
+        "bocadillos"
+    ]
+},
+{
+    "id":"l04",
+    "nombre":"El Mesón de Diego",
+    "descripcion":"El Mesón de Diego es un bar en el que se sirven buenas raciones. Está situado en un barrio residencial y tranquilo. Destaca por el buen ambiente que hay en su terraza.",
+    "coordenadas":[
+        39.48616,
+        -6.36572
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/13ASpj9YdgUbDEDwOT0qYqymw_kWacU6d/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/13ASpj9YdgUbDEDwOT0qYqymw_kWacU6d/view?usp=sharing",
+    "aforo_total":80,
+    "ocupacion_actual":40,
+    "etiquetas":[
+        "cervecerías",
+        "pinchos",
+        "raciones"
+    ]
+},
+{
+    "id":"l05",
+    "nombre":"Restaurante Javier Martín",
+    "descripcion":"Javier Martín es un restaurante de alto nivel en el que se busca siempre la mayor calidad. Se encuentra en un barrio tranquilo.",
+    "coordenadas":[
+        39.45557,
+        -6.38069
+    ],
+    "valoracionGlobal":4.5,
+    "foto_perfil":"https://drive.google.com/file/d/1PG6kMu5-wj6YQ_ZYJTa9KG9uLg085UOl/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/1WXdJpPdAfzI-Ui42gs8wb_HK9NvXgqpb/view?usp=sharing",
+    "aforo_total":100,
+    "ocupacion_actual":50,
+    "etiquetas":[
+        "restaurante"
+    ]
+},
+{
+    "id":"l06",
+    "nombre":"Pastelería Imperial",
+    "descripcion":"Pastelería Imperial, una de las pastelerías más famosas de Cáceres debido a su alta calidad y experiencia.",
+    "coordenadas":[
+        39.47234640849141,
+... (70 líneas restantes)
+Contraer
+locales.json
+6 KB
+﻿
+{
+"locales":[
+{
+    "id":"l01",
+    "nombre":"Urban's",
+    "descripcion":"Este establecimiento es un bar de tapas y raciones con muy buenos desayunos. Está en un barrio tranquilo y familiar y tiene un parque al lado. La terraza es muy grande y da mucho sol.",
+    "coordenadas":[
+        39.48822582763874,
+        -6.372563926523371
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/1_893ACuuh52Kl8IAxLWkERSHTR6ewP__/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/12Zx-BAWQKuUCbXPQ67C4OZGxyhJ_k6Aa/view?usp=sharing",
+    "aforo_total":100,
+    "ocupacion_actual":40,
+    "etiquetas":[
+        "raciones",
+        "desayunos",
+        "tostadas"
+]
+},
+{
+    "id":"l02",
+    "nombre":"Meraki",
+    "descripcion":"Meraki es un bar de cañas con muy buenas tapas y buenas raciones. Está situado en un barrio muy tranquilo. Disponen de una carta de raciones y platos individuales muy variada.",
+    "coordenadas":[
+        39.487758004045645,
+        -6.370697109157292
+    ],
+    "valoracionGlobal":4.5,
+    "foto_perfil":"https://drive.google.com/file/d/1aEe0XWkuih8wIP2x_J0fwo4Y55iYP_0S/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/1pW16Mw6VSN1r3rXSxs9dVoJV9BiRqfiM/view?usp=sharing",
+    "aforo_total":150,
+    "ocupacion_actual":30,
+    "etiquetas":[
+        "cervecería",
+        "hamburguesa",
+        "pinchos"
+    ]
+},
+{
+    "id":"l03",
+    "nombre":"Dino Burger",
+    "descripcion":"Dino Burger es una restaurante especializado en hamburguesas pero con un amplio menú. Está situado en el centro de Cáceres. Destaca principalmente por la relación de calidad-precio.",
+    "coordenadas":[
+        39.46827,
+        -6.38052
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/13ASpj9YdgUbDEDwOT0qYqymw_kWacU6d/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/13MlvbMGPH-3kpdBzNa0VvaVrfwGNr7Fk/view?usp=sharing",
+    "aforo_total":150,
+    "ocupacion_actual":30,
+    "etiquetas":[
+        "hamburguesa",
+        "bocadillos"
+    ]
+},
+{
+    "id":"l04",
+    "nombre":"El Mesón de Diego",
+    "descripcion":"El Mesón de Diego es un bar en el que se sirven buenas raciones. Está situado en un barrio residencial y tranquilo. Destaca por el buen ambiente que hay en su terraza.",
+    "coordenadas":[
+        39.48616,
+        -6.36572
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/13ASpj9YdgUbDEDwOT0qYqymw_kWacU6d/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/13ASpj9YdgUbDEDwOT0qYqymw_kWacU6d/view?usp=sharing",
+    "aforo_total":80,
+    "ocupacion_actual":40,
+    "etiquetas":[
+        "cervecerías",
+        "pinchos",
+        "raciones"
+    ]
+},
+{
+    "id":"l05",
+    "nombre":"Restaurante Javier Martín",
+    "descripcion":"Javier Martín es un restaurante de alto nivel en el que se busca siempre la mayor calidad. Se encuentra en un barrio tranquilo.",
+    "coordenadas":[
+        39.45557,
+        -6.38069
+    ],
+    "valoracionGlobal":4.5,
+    "foto_perfil":"https://drive.google.com/file/d/1PG6kMu5-wj6YQ_ZYJTa9KG9uLg085UOl/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/1WXdJpPdAfzI-Ui42gs8wb_HK9NvXgqpb/view?usp=sharing",
+    "aforo_total":100,
+    "ocupacion_actual":50,
+    "etiquetas":[
+        "restaurante"
+    ]
+},
+{
+    "id":"l06",
+    "nombre":"Pastelería Imperial",
+    "descripcion":"Pastelería Imperial, una de las pastelerías más famosas de Cáceres debido a su alta calidad y experiencia.",
+    "coordenadas":[
+        39.47234640849141,
+        -6.390224157996629
+    ],
+    "valoracionGlobal":4.5,
+    "foto_perfil":"https://drive.google.com/file/d/1LH1gCJy-Cq9zeiabwbQa45tpcgflY7Ah/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/11MuogBloGE_RgM-YjmHMRxSU0DEWPYSz/view?usp=sharing",
+    "aforo_total":80,
+    "ocupacion_actual":30,
+    "etiquetas":[
+        "pastelería"
+    ]
+},
+{
+    "id":"l07",
+    "nombre":"Restaurante Albalat",
+    "descripcion":"Restaurante y tapería en Cáceres. Gastronomía de toda la vida, cocina extremeña.",
+    "coordenadas":[
+        39.47069268643726, 
+        -6.38403044451541
+    ],
+    "valoracionGlobal":4.5,
+    "foto_perfil":"https://drive.google.com/file/d/1ND9IWd6duFqB7uNagYJD9MplRVLrRedL/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/17Bi79cLbV0RgdNH7uj8wU_TVPyGIOi13/view?usp=sharing",
+    "aforo_total":120,
+    "ocupacion_actual":20,
+    "etiquetas":[
+        "restaurante",
+        "tapería"
+    ]
+},
+{
+    "id":"l08",
+    "nombre":"El Corral de las Cigüeñas",
+    "descripcion":"Localizado en pleno corazón de la Ciudad Monumental de Cáceres. Sala de Conciertos/Bar.",
+    "coordenadas":[
+        39.47437582191159, 
+        -6.371000831010005
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/1ri3hqPPhHV07CgGx0VlhY0Sl4UBg50yq/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/1PZ70pcOGxk1Kcff7n8PcRnD3JzoUbq0j/view?usp=sharing",
+    "aforo_total":150,
+    "ocupacion_actual":30,
+    "etiquetas":[
+        "bar",
+        "conciertos"
+    ]
+},
+{
+    "id":"l09",
+    "nombre":"Sal y Pimienta",
+    "descripcion":"Tu restaurante, bar y tapería de confianza. Cocina tradicional e innovadora en un mismo sitio",
+    "coordenadas":[
+        39.46295724822357, 
+        -6.3779139376947125
+    ],
+    "valoracionGlobal":4,
+    "foto_perfil":"https://drive.google.com/file/d/1ri3hqPPhHV07CgGx0VlhY0Sl4UBg50yq/view?usp=sharing",
+    "foto_background":"https://drive.google.com/file/d/1PZ70pcOGxk1Kcff7n8PcRnD3JzoUbq0j/view?usp=sharing",
+    "aforo_total":100,
+    "ocupacion_actual":40,
+    "etiquetas":[
+        "bar",
+        "tapería",
+        "restaurante"
+    ]
+}
+]
+}

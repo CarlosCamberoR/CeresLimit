@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rosewood">#4F000B</color>
+    <color name="claret">#720026</color>
+    <color name="brick_red">#CE4257</color>
+    <color name="coral">#FF7F51</color>
+    <color name="sandy_brown">#FF9B54</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    
+    <color name="cat_indigo_dye">#003A52</color>
+    <color name="cat_blue_shappire">#00667A</color>
+
+    <color name="cat_pistachio">#90BE6D</color>
+    <color name="cat_zomp">#43AA8B</color>
+
+    <color name="cat_red_salsa">#F94144</color>
+    <color name="cat_orange_red">#F3722C</color>
+
+    <color name="cat_dark_orchid">#9D4EDD</color>
+    <color name="cat_ultra_red">#FF758F</color>
+
+    <color name="cat_maize_crayola">#F9C74F</color>
+</resources>

@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.hacerreserva.HacerReservaFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_backgroundLocal"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <ImageView
+                    android:id="@+id/iv_logoLocal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/rosewood"
+                    android:padding="3dp"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_backgroundLocal"
+                    app:layout_constraintEnd_toEndOf="@id/iv_backgroundLocal"
+                    app:layout_constraintStart_toStartOf="@id/iv_backgroundLocal"
+                    android:src="@drawable/ic_launcher_foreground" />
+                <TextView
+                    android:id="@+id/tv_nombreLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="TITULO DEL SITIO"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/iv_backgroundLocal"/>
+
+                <EditText
+                    android:id="@+id/et_reserva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nombreLocal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:inputType="textPersonName"
+                    android:minEms="12"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:hint="@string/nombre_reserva"/>
+
+                <EditText
+                    android:id="@+id/et_fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/et_reserva"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:minEms="12"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:inputType="date"
+                    android:hint="@string/selecciona_fecha"
+                    android:focusable="false"/>
+
+                <EditText
+                    android:id="@+id/et_hora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/et_fecha"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:minEms="12"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:inputType="time"
+                    android:hint="@string/selecciona_hora"
+                    android:focusable="false"/>
+
+                <Button
+                    android:id="@+id/b_hacerReserva_confirmar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/et_hora"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginHorizontal="60dp"
+                    android:text="@string/confirmar"
+                    android:textSize="18dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
